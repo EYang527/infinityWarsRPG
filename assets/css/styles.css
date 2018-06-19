@@ -1,8 +1,14 @@
-.body{
-    background: url("../images/background.jpg");
+body{
+    background:url("../images/backgroundHD.jpg")!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    font-family: 'Anton', sans-serif;
+    width:1080px;
+    color:white;
+    
 }
 
-.character{
+.character,.hero,.defender{
     float:left;
     text-align:center;
     padding:5px;
@@ -12,4 +18,52 @@
 
 .ennemyTable{
     clear:both;
+    padding-top:1.5em;
+    color:green;
 }
+
+.defenderPosition{
+    clear:both;
+    padding: top 1.2em;    
+}
+.attack{
+    clear:both;
+}
+
+.hero{
+background: lightskyblue;
+color:black;
+}
+
+.defender{
+background: red;
+}
+
+.character{
+    background: white;
+    color:black;
+}
+
+.printMessage {
+    margin:2em;
+    padding-left:5em;
+}
+
+.header{
+    align-content: center;
+    /* padding:2em;
+    
+    margin-bottom:2em; */
+    font-size: 4em;
+    font-style: italic;
+    color:white;
+    margin-left:3em;
+}
+.pclass{
+    clear:both;
+   
+}
+.selectionChar,.ennemyTable,.defenderPosition,.buttondiv,.attackdiv,.pclass,.printMessage{
+    margin-left:10em;
+}
+
